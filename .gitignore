@@ -1,4 +1,4 @@
+node_modules
 index.js
 app/**/*.js
 *.log
-node_modules

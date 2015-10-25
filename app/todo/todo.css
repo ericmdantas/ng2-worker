@@ -1,0 +1,20 @@
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+hr {
+  max-width: 500px;
+  margin: 20px auto 0;
+  border-top-color: transparent;
+  border-bottom-color: #eee;
+}
+
+.todo-list-container {
+  max-width: 500px;
+  margin: 10px auto 0;
+}
+
+.todo-list-container .todo {
+  cursor: pointer;
+}

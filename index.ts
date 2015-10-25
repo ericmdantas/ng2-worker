@@ -1,8 +1,5 @@
 /// <reference path="typings/tsd.d.ts" />
 
-import {bootstrap} from 'angular2/angular2';
-import {AppCmp} from 'app/app_cmp.js';
+import {bootstrap} from 'angular2/web_worker/ui';
 
-bootstrap(AppCmp)
-  .then(() => console.log('ok'))
-  .catch((error) => console.error(error));
+bootstrap("loader.js");

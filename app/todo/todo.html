@@ -1,0 +1,16 @@
+<div>
+  <form [ng-form-model]="todoForm"
+        (submit)="addTodo(todoForm.value.message)">
+
+    <input type="text"
+           ng-control="message" />
+
+    <button type="submit" [disabled]="!todoForm.valid">+</button>
+  </form>
+
+  <hr />
+
+  <div *ng-for="#t of todoList; #i = index" class="todo-list-container">
+    <p class="todo" (click)="removeTodo(t.createdAt)">{{i}} - {{t.message}}</p>
+  </div>
+</div>
