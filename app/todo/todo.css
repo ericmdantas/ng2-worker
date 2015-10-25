@@ -18,3 +18,8 @@ hr {
 .todo-list-container .todo {
   cursor: pointer;
 }
+
+.container {
+  border-left: 2px solid gray;
+  padding-left: 15px;
+}

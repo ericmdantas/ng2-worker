@@ -10,7 +10,7 @@
 
   <hr />
 
-  <div *ng-for="#t of todoList; #i = index" class="todo-list-container">
+  <div *ng-for="#t of todoList; #i = index" class="todo-list-container" container-directive>
     <p class="todo" (click)="removeTodo(t.createdAt)">{{i}} - {{t.message}}</p>
   </div>
 </div>
