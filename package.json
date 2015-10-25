@@ -1,0 +1,24 @@
+{
+  "name": "ng2-worker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericmdantas/ng2-worker.git"
+  },
+  "author": "Eric Mendes Dantas <ericdantas0@gmail.com> (https://github.com/ericmdantas)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericmdantas/ng2-worker/issues"
+  },
+  "homepage": "https://github.com/ericmdantas/ng2-worker#readme",
+  "dependencies": {
+    "angular2": "^2.0.0-alpha.44",
+    "reflect-metadata": "^0.1.2",
+    "systemjs": "^0.18.17"
+  }
+}
