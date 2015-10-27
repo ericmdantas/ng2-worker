@@ -13,14 +13,13 @@ import {
 
 import {TodoDAO} from 'app/todo/todo_dao.js';
 import {Todo} from 'app/todo/todo_model.js';
-import {ContainerDirective} from 'app/container/container_directive.js';
 
 @Component({
   selector: 'todo-cmp',
   templateUrl: 'app/todo/todo.html',
   styleUrls: ['app/todo/todo.css'],
   providers: [TodoDAO],
-  directives: [FORM_DIRECTIVES, NgFor, ContainerDirective]
+  directives: [FORM_DIRECTIVES, NgFor]
 })
 export class TodoCmp implements OnInit {
   todoForm: ControlGroup;
