@@ -1,5 +1,3 @@
-/// <reference path="../typings/tsd.d.ts" />
-
 import {Component, OnInit} from 'angular2/web_worker/worker';
 
 import {TodoCmp} from 'app/todo/todo_cmp.js';

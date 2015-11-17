@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/ericmdantas/ng2-worker#readme",
   "dependencies": {
-    "angular2": "^2.0.0-alpha.45",
+    "angular2": "^2.0.0-alpha.46",
     "reflect-metadata": "^0.1.2",
     "systemjs": "^0.18.17"
   }
