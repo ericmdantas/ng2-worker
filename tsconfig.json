@@ -5,20 +5,7 @@
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true
     },
-    "filesGlob": [
-        "index.ts",
-        "app/**/*.ts"
-    ],
     "exclude": [
         "node_modules"
-    ],
-    "files": [
-        "index.ts",
-        "app/app_cmp.ts",
-        "app/background.ts",
-        "app/todo/todo_cmp.ts",
-        "app/todo/todo_dao.ts",
-        "app/todo/todo_list_cmp.ts",
-        "app/todo/todo_model.ts"
     ]
 }
